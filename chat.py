@@ -12,7 +12,7 @@ except ImportError:
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
 Settings.embed_model = embed_model
 
-st.set_page_config(page_title="Chat with Giant Food Stores", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Chat with Giant Food Stores", layout="wide", initial_sidebar_state="collapsed", menu_items=None)
 openai.api_key = st.secrets.openai_key
 SYSTEM_PROMPT = '''You are an expert on Giant Food Stores and your job is to \ 
 answer user questions. Assume that all questions are related to the store. \
