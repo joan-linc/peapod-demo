@@ -1,1 +1,0 @@
-The SCAN IT! device uses the wireless infrastructure throughout the store to recognize the location of the shopper.

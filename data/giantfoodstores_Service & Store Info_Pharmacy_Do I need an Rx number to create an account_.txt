@@ -1,1 +1,0 @@
-Yes. We need a patient’s last name, date of birth, store number, and Rx number for every order.
